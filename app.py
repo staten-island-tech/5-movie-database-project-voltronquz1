@@ -6,5 +6,7 @@ data = json.load(movies)
 
 for index, item in enumerate(data):
     print(index, ":", item["title"])
-year=input("Give me a movie in that database ")
-
+movie=input("Give me a movie year in that database ")
+for movie in data:
+    if movie('year') > data:
+        print(movie('title'))
