@@ -10,3 +10,5 @@ choice=input("Give me a movie year in that database ")
 for movie in data:
     if movie('year') > choice:
         print(movie('title'))
+for movie in data:
+    if movie('year')
