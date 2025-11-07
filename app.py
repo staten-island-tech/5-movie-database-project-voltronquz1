@@ -7,15 +7,19 @@ data = json.load(movies)
 # for index, item in enumerate(data):
 #     print(index, ':', item["title"])
 choice=int(input("Give me a movie year in that database "))
+# file two
 # for i in data:
 #     if i['year'] > choice:
 #         print(i['title']) 
 
-
+# file 3
 # for i in data:
 #     if i['year'] > choice < i['year']:
 #         print(i["title"])
-
+# file 4
 for i in data:
     if i['year']==choice:
         print(i['title'])
+# file 5
+for i in data:
+    if i['title']
