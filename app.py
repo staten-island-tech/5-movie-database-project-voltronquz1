@@ -27,6 +27,6 @@ for i in data:
     if  choice.lower() in i['title'].lower():
         print(i['title'])
         counter+=1
-    if counter <0:
+    elif counter <0:
         print("There is nothing with that keyword give me something else")
-        print("")
+        print("Give me another word")
