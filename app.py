@@ -20,13 +20,21 @@ data = json.load(movies)
 # for i in data:
 #     if i['year']==choice:
 #         print(i['title'])
-choice=input("Give me a word to look for movie with that word: ")
-# file 5
-counter=0
+# choice=input("Give me a word to look for movie with that word: ")
+# # file 5
+# counter=0
+# for i in data:
+#     if  choice.lower() in i['title'].lower():
+#         print(i['title'])
+#         counter+=1
+#     elif counter <=0:
+#         print("There is nothing with that keyword give me something else")
+#         input("Give me another word")
+#         if  choice.lower() in i['title'].lower():
+#             print(i['title'])
+#             counter+=1
+# file 6
+genre=input("Give me a word to look for a genre with that word")
 for i in data:
-    if  choice.lower() in i['title'].lower():
-        print(i['title'])
-        counter+=1
-    elif counter <0:
-        print("There is nothing with that keyword give me something else")
-        print("Give me another word")
+    if genre.lower() in i['genres'].lower():
+        print(i['genres'])
