@@ -35,7 +35,7 @@ data = json.load(movies)
 #             print(i['title'])
 #              counter+=1
 # file 6
-choice=input("Give me a word to look for a genre with that word: ")
-for i in data:
-    if choice.capitalize() in i['genres']:
-        print(i['title'])
+# choice=input("Give me a word to look for a genre with that word: ")
+# for i in data:
+#     if choice.capitalize() in i['genres']:
+#         print(i['title'])
